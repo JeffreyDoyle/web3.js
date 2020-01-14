@@ -15,14 +15,14 @@
     along with web3.js.  If not, see <http://www.gnu.org/licenses/>.
 */
 /**
- * @file StartMinerMethod.js
+ * @file StartMiningMethod.js
  * @author Prince Sinha <sinhaprince013@gmail.com>
  * @date 2019
  */
 
 import AbstractMethod from '../../../lib/methods/AbstractMethod';
 
-export default class StartMinerMethod extends AbstractMethod {
+export default class StartMiningMethod extends AbstractMethod {
     /**
      * @param {Utils} utils
      * @param {Object} formatters

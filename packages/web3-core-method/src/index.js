@@ -25,7 +25,9 @@ export PromiEvent from '../lib/PromiEvent';
 export AbstractMethodFactory from '../lib/factories/AbstractMethodFactory';
 export AbstractMethod from '../lib/methods/AbstractMethod';
 export MethodProxy from './proxy/MethodProxy';
-export TransactionObserver from './observers/TransactionObserver';
+export AbstractTransactionObserver from '../lib/observers/AbstractTransactionObserver';
+export HttpTransactionObserver from './observers/HttpTransactionObserver';
+export SocketTransactionObserver from './observers/SocketTransactionObserver';
 
 // Network
 export GetProtocolVersionMethod from './methods/network/GetProtocolVersionMethod';
@@ -168,5 +170,5 @@ export StopWsMethod from './methods/admin/StopWsMethod';
 export SetEtherBaseMethod from './methods/miner/SetEtherBaseMethod';
 export SetExtraMethod from './methods/miner/SetExtraMethod';
 export SetGasPriceMethod from './methods/miner/SetGasPriceMethod';
-export StartMinerMethod from './methods/miner/StartMinerMethod';
-export StopMinerMethod from './methods/miner/StopMinerMethod';
+export StartMiningMethod from './methods/miner/StartMiningMethod';
+export StopMiningMethod from './methods/miner/StopMiningMethod';

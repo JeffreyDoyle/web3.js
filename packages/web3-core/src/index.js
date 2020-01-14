@@ -20,4 +20,4 @@
  * @date 2018
  */
 
-export AbstractWeb3Module from './AbstractWeb3Module.js';
+export AbstractWeb3Module from '../public_api/AbstractWeb3Module';
